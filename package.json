@@ -1,7 +1,6 @@
 {
   "name": "angular-mean",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon server/index.js"
@@ -11,10 +10,20 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.3",
+    "mongodb": "^3.1.1",
     "mongoose": "^5.2.7",
     "morgan": "^1.9.0"
   },
   "devDependencies": {
     "nodemon": "^1.18.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iscomax/MEAN.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iscomax/MEAN/issues"
+  },
+  "homepage": "https://github.com/iscomax/MEAN#readme",
+  "description": ""
 }
